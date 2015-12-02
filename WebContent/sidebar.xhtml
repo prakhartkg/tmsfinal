@@ -1,0 +1,46 @@
+<ui:composition 
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://xmlns.jcp.org/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+   <div id="sidebar">
+			<h:form>
+			  <div class="icon">
+			  
+                    <h:commandLink class="tooltips" action="dashboard.xhtml?faces-redirect=true"><h:graphicImage name="1.png" library="images" height="50px" width="50px" />
+                    <span>DashBoard</span>
+                    </h:commandLink>
+                </div>
+                <div class="icon">
+                   <h:commandLink class="tooltips" action="#{courseBean.viewAllCources}" > <h:graphicImage name="2.png" library="images" height="50px" width="50px" />
+                   <span>Courses</span>
+                   </h:commandLink>
+                    </div>
+                <div class="icon">
+                   <h:commandLink class="tooltips" href="#"> <h:graphicImage name="3.png" library="images" height="50px" width="50px"/>
+                   <span>People</span>
+                   </h:commandLink>
+                </div>
+                <div class="icon">
+                    <h:commandLink class="tooltips" > <h:graphicImage name="4.png" library="images" height="50px" width="50px"/>
+                   <span>Team</span>
+                  </h:commandLink>
+                  </div>
+                <div class="icon">
+                   <h:commandLink class="tooltips" href="#">  <h:graphicImage name="5.png" library="images" height="50px" width="50px" />
+                    <span>Reports</span>
+                   </h:commandLink>
+                    </div>
+                <div class="icon">
+                    <h:commandLink class="tooltips" href="#"> <h:graphicImage name="6.png" library="images" height="50px" width="50px" />
+                    <span>Messages</span>
+                    </h:commandLink>
+                    </div>
+                <div class="icon">
+                     <h:commandLink class="tooltips" href="#"><h:graphicImage name="7.png" library="images" height="50px" width="50px"/>
+                    <span>Setting</span>
+                    </h:commandLink>
+                    </div>
+			</h:form>
+			</div>
+</ui:composition>
